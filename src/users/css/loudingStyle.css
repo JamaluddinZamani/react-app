@@ -1,0 +1,36 @@
+
+@keyframes louding {
+    0% {background: linear-gradient(to bottom right, rgba(0,0,0,0.1),rgba(0,0,0,0.01),rgba(0,0,0,0.01),rgba(0,0,0,0.01),rgba(0,0,0,0.01));}
+    25% {background: linear-gradient(to bottom right, rgba(0,0,0,0.01),rgba(0,0,0,0.1), rgba(0,0,0,0.01),rgba(0,0,0,0.01),rgba(0,0,0,0.01));}
+    50% {background: linear-gradient(to bottom right, rgba(0,0,0,0.01),rgba(0,0,0,0.01),rgba(0,0,0,0.1),rgba(0,0,0,0.01),rgba(0,0,0,0.01));}
+    100% {background: linear-gradient(to bottom right, rgba(0,0,0,0.01), rgba(0,0,0,0.01),rgba(0,0,0,0.01),rgba(0,0,0,0.01),rgba(0,0,0,0.1));}
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    animation-name: louding;
+    animation-duration: 0.8s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.circle{
+    border: 1px solid rgb(180, 178, 178);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+}

@@ -1,0 +1,13 @@
+
+.indecator_container{
+    width:80%;
+    height: 80px;
+    margin: 0 auto;
+    background-color: rgb(190, 190, 190);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    font-weight: bold;
+}

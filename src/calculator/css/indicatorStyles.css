@@ -1,0 +1,18 @@
+
+.indecator{
+    width: 80%;
+    height: 90px;
+    margin: 5px auto;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2em;
+    color: rgba(0, 0, 0, 0.4);
+}
+.indecator_btn{
+    cursor: pointer;
+}
+.indecator_btn:hover{
+    text-shadow: 2px 2px 5px rgba(0,0, 0, 0.5);
+}

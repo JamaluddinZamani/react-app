@@ -1,0 +1,31 @@
+
+.login_form_container{
+    padding-left: 20%;
+    padding-top: 30px;
+}
+.login_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 70%;
+}
+.login_form *{
+    padding: 5px;
+}
+.login_form input[type=submit]{
+    border: none;
+    border-radius: 5px;
+    width: 80px;
+    margin-top: 20px;
+    background-color: rgb(95, 71, 228);
+    color: white;
+    cursor: pointer;
+}
+.error_container{
+    background-color: rgb(211, 85, 85);
+}
+.succes_login_container{
+    text-align: center;
+    background-color: lightgreen;
+    color: white;
+}
